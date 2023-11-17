@@ -1,0 +1,26 @@
+/* PROVISIONAL */
+* {
+  padding: 0;
+  margin: 0;
+  background-color: black;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#provisional-container{
+    width: 70vw;
+    height: 70vh;
+}
+
+
+/* Treemap-container */
+#treemap-container{
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    background-color: red;
+}
+

@@ -1,0 +1,37 @@
+{
+    "title": "treemap",
+    "elements" : [
+        {
+            "name" : "Python",
+            "percentage" : 30,
+            "imageUrl" : "/assets/python-logo.png",
+            "colorHex" : "#FF0000",
+            "isClickable" : true,
+            "clickUrl" : "http://www.python.org/"
+        },
+        {
+            "name" : "Java",
+            "percentage" : 30,
+            "imageUrl" : "/assets/java-logo.png",
+            "colorHex" : "#00FF00",
+            "isClickable" : true,
+            "clickUrl" : "http://www.java.com/"
+        },
+        {
+            "name" : "C++",
+            "percentage" : 20,
+            "imageUrl" : "/assets/c++-logo.png",
+            "colorHex" : "#0000FF",
+            "isClickable" : true,
+            "clickUrl" : "http://www.cplusplus.com/"
+        },
+        {
+            "name" : "C",
+            "percentage" : 20,
+            "imageUrl" : "/assets/c-logo.png",
+            "colorHex" : "#FFFF00",
+            "isClickable" : true,
+            "clickUrl" : "http://www.cprogramming.com/"
+        }
+    ]
+}

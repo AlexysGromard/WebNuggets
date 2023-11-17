@@ -1,0 +1,35 @@
+body{
+    background-color: #181818 !important;
+}
+#footer-arrow {
+    background-image: url(img/arrow.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 70px;
+    height: 50px;
+    cursor: pointer;
+    margin-top: 29px;
+    margin-bottom: 34px;
+    display: inline-block;
+
+    /* Départ de l'annimation */
+    animation: slidein 1.5s infinite ;
+}
+
+@keyframes slidein  {
+    0% {
+        background-position: center;
+    }
+  
+    50% {
+        background-position-y: 10%;
+    }
+    70%{
+        background-position-y: 5%; 
+    }
+
+    100% {
+        background-position: center;
+    }
+}
+

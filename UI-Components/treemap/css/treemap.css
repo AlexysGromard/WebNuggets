@@ -18,9 +18,15 @@ body{
 
 /* Treemap-container */
 #treemap-container{
+    position: relative;
     border-radius: 10px;
     width: 100%;
     height: 100%;
-    background-color: red;
+    background-color: grey;
 }
 
+/* treemap-cell */
+.treemap-cell {
+    box-sizing: border-box;
+    position: absolute;
+}

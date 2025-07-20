@@ -6,7 +6,7 @@ function Readme() {
   const [content, setContent] = useState("");
 
   useEffect(() => {
-    fetch("/WebNuggets/README.md")
+    fetch(import.meta.env.BASE_URL + 'assets/README.md')
       .then((res) => res.text())
       .then(setContent);
   }, []);

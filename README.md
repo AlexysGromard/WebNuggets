@@ -17,5 +17,29 @@ Explore our collection of user-friendly interface components, ranging from forms
 Add a dynamic dimension to your site with our ready-to-use animation effects.
 - [ArrowAnimation](Animation-Effects/ArrowAnimation)
 
+### 📦 Installation
+
+```bash
+npm install
+```
+
+### ▶️ Run locally
+
+```bash
+npm run dev
+```
+
+### 🛠️ Build
+```bash
+npm run build
+```
+
+### 🚀 Deploy to GitHub Pages
+```bash
+npm run deploy
+```
+
+And that GitHub Pages is enabled from the **\`gh-pages\`** branch in the repository settings.
+
 ## 📄 License
 WebNuggets is distributed under the MIT License. See the [LICENSE](LICENSE) file for more details.
